@@ -40,6 +40,7 @@ body {
     background-color: white;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -76,10 +77,13 @@ button{
 h3{
     color: #5A537B;
     font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 p{
     font-size: 14px;
     color: #353535;
     margin-top: 10px;
+    /* margin: 0; */
 }
