@@ -64,7 +64,7 @@ input{
 
 button{
     cursor: pointer;
-    color: #3D3D3D;
+    color: #000;
     background-color: white;
     padding: 10px 30px;
     border: none;
@@ -72,6 +72,17 @@ button{
     margin-top: 25px;
     font-size: 16px;
     font-weight: bold;
+    box-shadow: 0 5px #999;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+  background-color: #e0e0e0;
+  box-shadow: 0 4px #666;
+  transform: translateY(2px);
 }
 
 h3{
@@ -85,5 +96,4 @@ p{
     font-size: 14px;
     color: #353535;
     margin-top: 10px;
-    /* margin: 0; */
 }
